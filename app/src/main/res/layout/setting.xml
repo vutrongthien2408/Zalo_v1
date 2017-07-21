@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:padding="10dp">
+
+    <TextView android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:textColor="@color/colorPrimary"
+              style="?android:attr/textAppearanceLarge"
+              android:paddingTop="50dp"
+              android:text="@string/language" android:id="@+id/textView"/>
+    <RadioGroup android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="20dp">
+        <RadioButton android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:id="@+id/rdEnglish"
+                     android:checked="true"
+                     android:text="English"/>
+        <RadioButton android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:id="@+id/rdVietnamese"
+                     android:text="VietNamese"/>
+        <RadioButton android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:id="@+id/rdJapanese"
+                     android:text="Japanese"/>
+    </RadioGroup>
+
+    <TextView android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:textColor="@color/colorPrimary"
+              style="?android:attr/textAppearanceLarge"
+              android:paddingTop="20dp"
+              android:text="@string/themes"/>
+    <RadioGroup android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="20dp">
+        <RadioButton android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:id="@+id/rdBlack"
+                     android:text="@string/blackThemes"/>
+        <RadioButton android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:id="@+id/rdWrite"
+                     android:checked="true"
+                     android:text="@string/writeThemes"/>
+    </RadioGroup>
+    <LinearLayout android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:gravity="right">
+        <Button android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/btnSaveSetting"
+                android:translationZ="10dp"
+                android:paddingTop="20dp"
+                android:theme="@style/PrimaryButton"
+                android:text="@string/saveSetting"
+                android:textColor="@color/loginText"/>
+    </LinearLayout>
+</LinearLayout>

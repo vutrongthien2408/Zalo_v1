@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Zalo</string>
+    <string name="chatRoom">Phòng chat</string>
+    <string name="confirmPassword">Xác nhận mật khẩu</string>
+    <string name="contact">Danh Bạ</string>
+    <string name="dinner">Ăn uống</string>
+    <string name="login">Đăng nhập</string>
+    <string name="logout">đăng xuất</string>
+    <string name="modePublic">công khai</string>
+    <string name="newfeed">Trang Chủ</string>
+    <string name="password">mật khẩu</string>
+    <string name="phone">số điện thoại</string>
+    <string name="qrCode">Mã Qr</string>
+    <string name="register">Đăng ký</string>
+    <string name="setting">Cài đặt</string>
+    <string name="shop">Mua sắm</string>
+    <string name="sticker">Nhãn</string>
+    <string name="updateInfo">Cập nhật thông tin</string>
+    <string name="username">tên tài khoản</string>
+    <string name="yourmind">Bạn đang nghĩ gì?</string>
+    <string name="blackThemes">đen</string>
+    <string name="language">Ngôn ngữ</string>
+    <string name="saveSetting">lưu</string>
+    <string name="themes">Giao diện</string>
+    <string name="writeThemes">trắng</string>
+    <string name="modePrivate">chỉ mình tôi</string>
+</resources>

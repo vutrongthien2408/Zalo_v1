@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name" translatable="false">Zalo</string>
+    <string name="login">Login</string>
+    <string name="username">username</string>
+    <string name="password">password</string>
+    <string name="phone">phoneNumber</string>
+    <string name="register">Register</string>
+    <string name="confirmPassword">confirmPassword</string>
+    <string name="newfeed">NEWFEED</string>
+    <string name="contact">CONTACT</string>
+    <string name="modePublic">public</string>
+    <string name="updateInfo">information update</string>
+    <string name="chatRoom">chatRoom</string>
+    <string name="qrCode">Qr Code</string>
+    <string name="shop">Shop</string>
+    <string name="sticker">Sticker</string>
+    <string name="dinner">Dinner</string>
+    <string name="setting">Setting</string>
+    <string name="yourmind">What on your mind?</string>
+    <string name="logout">logout</string>
+    <string name="language">Languae</string>
+    <string name="themes">Themes</string>
+    <string name="blackThemes">black</string>
+    <string name="writeThemes">write</string>
+    <string name="saveSetting">save</string>
+    <string name="modePrivate">private</string>
+</resources>

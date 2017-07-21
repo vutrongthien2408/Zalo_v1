@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="horizontal"
+              android:layout_width="400dp"
+              android:layout_height="wrap_content">
+
+        <ImageView android:layout_width="40dp"
+                   android:layout_height="40dp"
+                   android:src="@drawable/b"
+                   android:id="@+id/imgB"/>
+        <ImageView android:layout_width="40dp"
+                   android:layout_height="40dp"
+                   android:src="@drawable/c"
+                   android:id="@+id/imgC"/>
+        <ImageView android:layout_width="40dp"
+                   android:layout_height="40dp"
+                   android:src="@drawable/d"
+                   android:id="@+id/imgD"/>
+        <ImageView android:layout_width="40dp"
+                   android:layout_height="40dp"
+                   android:src="@drawable/e"
+                   android:id="@+id/imgE"/>
+        <ImageView android:layout_width="40dp"
+                   android:layout_height="40dp"
+                   android:src="@drawable/f"
+                   android:id="@+id/imgF"/>
+        <ImageView android:layout_width="40dp"
+                   android:layout_height="40dp"
+                   android:src="@drawable/g"
+                   android:id="@+id/imgG"/>
+        <ImageView android:layout_width="40dp"
+                   android:layout_height="40dp"
+                   android:src="@drawable/h"
+                   android:id="@+id/imgH"/>
+        <ImageView android:layout_width="40dp"
+                   android:layout_height="40dp"
+                   android:src="@drawable/k"
+                   android:id="@+id/imgK"/>
+</LinearLayout>

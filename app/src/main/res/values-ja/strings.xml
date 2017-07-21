@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Zalo</string>
+    <string name="blackThemes">黒</string>
+    <string name="chatRoom">ルームチャット</string>
+    <string name="confirmPassword">"パスワードを認証する "</string>
+    <string name="contact">接触</string>
+    <string name="dinner">ディナー</string>
+    <string name="language">言語</string>
+    <string name="login">"ログイン "</string>
+    <string name="logout">"ログアウト "</string>
+    <string name="modePublic">パブリック</string>
+    <string name="newfeed">"新しいフィード "</string>
+    <string name="password">パスワード</string>
+    <string name="phone">電話</string>
+    <string name="qrCode">Qr コード</string>
+    <string name="register">"登録 "</string>
+    <string name="saveSetting">"セーブ "</string>
+    <string name="setting">設定</string>
+    <string name="shop">ショップ</string>
+    <string name="sticker">ステッカー</string>
+    <string name="themes">テーマ</string>
+    <string name="updateInfo">情報を更新する</string>
+    <string name="username">ユーザー名</string>
+    <string name="writeThemes">"書きます "</string>
+    <string name="yourmind">"あなたは何を考えている "</string>
+    <string name="modePrivate">プライベート</string>
+</resources>

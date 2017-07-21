@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:background="#fff"
+              android:layout_height="match_parent">
+    <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:layout_marginBottom="4dp">
+        <LinearLayout android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:padding="5dp"
+                      android:orientation="vertical">
+            <LinearLayout android:layout_width="match_parent"
+                          android:layout_height="wrap_content">
+                <ImageView android:layout_width="40dp"
+                           android:layout_height="40dp"
+                           android:id="@+id/imgAvarInCmt"
+                           android:src="@mipmap/ic_launcher"/>
+                <LinearLayout android:layout_width="match_parent"
+                              android:layout_height="wrap_content"
+                              android:gravity="center_vertical"
+                              android:layout_marginLeft="10dp"
+                              android:orientation="vertical">
+                    <TextView android:layout_width="wrap_content"
+                              android:layout_height="wrap_content"
+                              android:id="@+id/tvUsernameStatusInCmt"
+                              android:textColor="@color/colorPrimary"
+                              style="?android:attr/textAppearanceLarge"
+                              android:text="name"/>
+
+                </LinearLayout>
+            </LinearLayout>
+            <TextView android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:id="@+id/tvStatusInCmt"
+                      android:layout_marginLeft="50dp"
+                      style="?android:attr/textAppearanceMedium"
+                      android:textColor="@color/statusText"
+                      android:text="day la status"/>
+            <ImageView android:layout_width="wrap_content"
+                       android:layout_marginTop="5dp"
+                       android:layout_height="wrap_content"
+                       android:layout_marginLeft="50dp"
+                       android:id="@+id/imgStatusInCmt"
+                       android:src="@mipmap/ic_launcher"/>
+
+
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+    <TextView android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_marginTop="10dp"
+              android:layout_marginLeft="40dp"
+              android:layout_marginBottom="5dp"
+              android:text="1 nguoi thich dieunay"
+              android:id="@+id/tvSoLike"/>
+    <LinearLayout android:layout_width="match_parent"
+                  android:layout_height="match_parent"
+                  android:orientation="vertical">
+        <LinearLayout android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:gravity="center"
+                      android:paddingLeft="10dp"
+                      android:layout_marginBottom="10dp">
+            <android.support.design.widget.TextInputLayout
+                    android:layout_width="0dp"
+                    android:layout_weight="5"
+                    android:layout_height="wrap_content">
+                <EditText android:layout_width="match_parent"
+                          android:layout_height="wrap_content"
+                          android:id="@+id/edtComment"
+                          android:hint="Comment"/>
+            </android.support.design.widget.TextInputLayout>
+            <ImageView android:layout_width="0dp"
+                       android:layout_weight="1"
+                       android:layout_height="match_parent"
+                       android:scaleType="center"
+                       android:id="@+id/imgSendComment"
+                       android:src="@android:drawable/ic_menu_send"/>
+        </LinearLayout>
+        <LinearLayout android:layout_width="match_parent"
+                      android:layout_height="1dp"
+        android:background="#cacaca">
+
+        </LinearLayout>
+        <ListView android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:layout_marginTop="10dp"
+                  android:padding="5dp"
+                  android:dividerHeight="0dp"
+                  android:divider="@null"
+                  android:id="@+id/lvListComment">
+
+        </ListView>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

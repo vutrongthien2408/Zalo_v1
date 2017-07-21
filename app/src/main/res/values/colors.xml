@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#1c3eff</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#f41714</color>
+    <color name="loginText">#fbfbfc</color>
+    <color name="registerText">#2105f7</color>
+    <color name="chatTextColor">#ffe66b</color>
+    <color name="friendTextColor">#000000</color>
+    <color name="labelTextColor">#ff0000</color>
+    <color name="statusText">#000</color>
+    <color name="userNameColor">#fff</color>
+
+</resources>

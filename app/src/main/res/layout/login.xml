@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:padding="16dp"
+              android:background="#fff">
+    <LinearLayout android:layout_width="match_parent"
+                  android:layout_height="0dp"
+                  android:orientation="vertical"
+                  android:gravity="right|center"
+                  android:layout_weight="2">
+        <TextView android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:textColor="@color/colorPrimary"
+                  android:textAlignment="center"
+                  android:text="@string/login"
+                  android:textStyle="bold"
+                  android:layout_marginBottom="20dp"
+                  style="?android:attr/textAppearanceLarge"/>
+        <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_marginBottom="20dp"
+                android:layout_height="wrap_content">
+
+            <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/edtUserNameLogin"
+                    android:hint="@string/username"
+            />
+        </android.support.design.widget.TextInputLayout>
+        <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            <EditText android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:id="@+id/edtPassworLogin"
+                      android:inputType="textPassword"
+                      android:layout_marginBottom="20dp"
+                      android:hint="@string/password"/>
+        </android.support.design.widget.TextInputLayout>
+        <Button android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/btnLogin"
+                android:layout_marginBottom="10dp"
+                android:translationZ="10dp"
+                android:theme="@style/PrimaryButton"
+                android:text="@string/login"/>
+        <TextView android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:id="@+id/tvRegister"
+                  android:text="@string/register"
+                  android:textColor="#2b01f9"/>
+    </LinearLayout>
+    <LinearLayout android:layout_width="match_parent"
+                  android:layout_height="0dp"
+                  android:layout_weight="1">
+
+    </LinearLayout>
+
+</LinearLayout>

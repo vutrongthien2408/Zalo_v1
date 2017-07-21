@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+        xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/shape_avar"/>
+    <!--<item android:drawable="@android:drawable/sym_action_call"/>-->
+</layer-list>
